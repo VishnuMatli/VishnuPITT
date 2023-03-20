@@ -1,0 +1,99 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/EEE_wall.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: transparent;
+    color: yellow;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav {
+    float: right;
+    border-radius: 50%;
+  }
+  
+  nav a {
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.5s;
+    border-radius: 50%;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  nav .active {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty {
+    display: inline-block;
+    width: 300px;
+    background-color: black;
+    opacity: 70%;
+    box-shadow: 0px 0px 10px black;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .faculty img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .faculty h3 {
+    color: green;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .faculty p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer small {
+    font-size: 12px;
+  }
+  

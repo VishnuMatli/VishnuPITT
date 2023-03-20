@@ -1,0 +1,96 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/images/CSE3_wall.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: transparent;
+    color: darkorange;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav a {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.5s;
+    border-radius: 50%;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  nav .active {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+  
+  h2 {
+    color: darkgreen;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty {
+    display: inline-block;
+    width: 300px;
+    color: white;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .faculty img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .faculty h3 {
+    color: yellow;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .faculty p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: white;
+    }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2e3192;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer small {
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+	font-family: Arial, sans-serif;
+	background-color: darkkhaki;
+}
+
+/* Style header */
+header {
+	background-color: mediumseagreen;
+	color: #000000;
+	padding: 20px;
+}
+
+/* Style header h1 */
+header h1 {
+    text-align: center;
+	font-size: 2em;
+	margin: 0;
+}
+/* Style for faculty list view */
+nav ul li ul {
+	display: none;
+	/* Hide the sub-menu by default */
+	position: absolute;
+	background-color: #fff;
+	/* Set background color to white */
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	/* Set z-index to make the sub-menu appear above other elements */
+}
+
+nav ul li:hover>ul {
+	display: block;
+	/* Show the sub-menu when the parent item is hovered */
+}
+
+nav ul li ul li {
+	position: relative;
+	width: 200px;
+	/* Set the width of the sub-menu */
+}
+
+nav ul li ul li a {
+	display: block;
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+nav ul li ul li a:hover {
+	background-color: #ddd;
+	/* Change background color when hovered */
+}
+nav .active {
+    color: rgb(253, 0, 0) ;
+  }
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+header nav li {
+	margin: 0 10px;
+}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+header nav a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+
+/* Style main */
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+/* Style main h2 */
+main h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+/* Style main p */
+main p {
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+/* Style main ul */
+main ul {
+	margin-bottom: 20px;
+}
+
+main li {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+/* Style footer */
+footer {
+	background-color: maroon;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style footer p */
+footer p {
+	margin: 0;
+	font-size: 0.8em;
+}
